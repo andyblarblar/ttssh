@@ -1,0 +1,10 @@
+[package]
+name = "ttssh"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tts = "0.20.1"
+
+[profile.release]
+lto = "fat"
